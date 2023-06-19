@@ -192,106 +192,157 @@ class _TaskThirdScreenState extends State<TaskThirdScreen> {
                 ],
               ),
             ),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: [
-                Container(
-                  padding: const EdgeInsets.all(20),
-                  height: 120,
-                  width: 120,
-                  margin: const EdgeInsets.all(20),
-                  decoration: const BoxDecoration(
-                    border: Border(
-                      left: BorderSide(
-                        style: BorderStyle.solid,
-                        color: Colors.black,
-                        width: 5.0,
+            SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  Container(
+                    padding: const EdgeInsets.all(20),
+                    height: 120,
+                    width: 120,
+                    margin: const EdgeInsets.all(20),
+                    decoration: const BoxDecoration(
+                      border: Border(
+                        left: BorderSide(
+                          style: BorderStyle.solid,
+                          color: Colors.black,
+                          width: 5.0,
+                        ),
+                        right: BorderSide(
+                          style: BorderStyle.solid,
+                          color: Colors.black,
+                          width: 15.0,
+                        ),
+                        top: BorderSide(
+                          style: BorderStyle.solid,
+                          color: Colors.black38,
+                          width: 20.0,
+                        ),
+                        bottom: BorderSide(
+                          style: BorderStyle.solid,
+                          color: Colors.black38,
+                          width: 8.0,
+                        ),
                       ),
-                      right: BorderSide(
-                        style: BorderStyle.solid,
-                        color: Colors.black,
-                        width: 15.0,
-                      ),
-                      top: BorderSide(
-                        style: BorderStyle.solid,
-                        color: Colors.black38,
-                        width: 20.0,
-                      ),
-                      bottom: BorderSide(
-                        style: BorderStyle.solid,
-                        color: Colors.black38,
-                        width: 8.0,
-                      ),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.greenAccent,
+                          blurRadius: 15,
+                          spreadRadius: 15,
+                          blurStyle: BlurStyle.inner,
+                        ),
+                      ],
                     ),
-                    boxShadow: [
-                      BoxShadow(
-                        color: Colors.greenAccent,
-                        blurRadius: 15,
-                        spreadRadius: 15,
-                        blurStyle: BlurStyle.inner,
-                      ),
-                    ],
-                  ),
-                  child: const Icon(
-                    Icons.add_alert,
-                    size: 50,
-                    shadows: [
-                      BoxShadow(
-                        color: Colors.redAccent,
-                        offset: Offset(5, 5),
-                      ),
-                    ],
-                  ),
-                ),
-                Container(
-                  padding: const EdgeInsets.all(20),
-                  height: 120,
-                  width: 120,
-                  margin: const EdgeInsets.all(20),
-                  decoration: const BoxDecoration(
-                    border: Border(
-                      left: BorderSide(
-                        style: BorderStyle.solid,
-                        color: Colors.black,
-                        width: 5.0,
-                      ),
-                      right: BorderSide(
-                        style: BorderStyle.solid,
-                        color: Colors.black,
-                        width: 15.0,
-                      ),
-                      top: BorderSide(
-                        style: BorderStyle.solid,
-                        color: Colors.black38,
-                        width: 20.0,
-                      ),
-                      bottom: BorderSide(
-                        style: BorderStyle.solid,
-                        color: Colors.black38,
-                        width: 8.0,
-                      ),
+                    child: const Icon(
+                      Icons.add_alert,
+                      size: 50,
+                      shadows: [
+                        BoxShadow(
+                          color: Colors.redAccent,
+                          offset: Offset(5, 5),
+                        ),
+                      ],
                     ),
-                    boxShadow: [
-                      BoxShadow(
-                        color: Colors.pinkAccent,
-                        blurRadius: 15,
-                        spreadRadius: 15,
-                        blurStyle: BlurStyle.inner,
-                      ),
-                    ],
                   ),
-                  child: const Icon(
-                    Icons.add_box,
-                    size: 50,
-                    shadows: [
-                      BoxShadow(
-                        color: Colors.purpleAccent,
-                        offset: Offset(5, 5),
+                  Container(
+                    padding: const EdgeInsets.all(20),
+                    height: 120,
+                    width: 120,
+                    margin: const EdgeInsets.all(20),
+                    decoration: const BoxDecoration(
+                      border: Border(
+                        left: BorderSide(
+                          style: BorderStyle.solid,
+                          color: Colors.black,
+                          width: 5.0,
+                        ),
+                        right: BorderSide(
+                          style: BorderStyle.solid,
+                          color: Colors.black,
+                          width: 15.0,
+                        ),
+                        top: BorderSide(
+                          style: BorderStyle.solid,
+                          color: Colors.black38,
+                          width: 20.0,
+                        ),
+                        bottom: BorderSide(
+                          style: BorderStyle.solid,
+                          color: Colors.black38,
+                          width: 8.0,
+                        ),
                       ),
-                    ],
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.pinkAccent,
+                          blurRadius: 15,
+                          spreadRadius: 15,
+                          blurStyle: BlurStyle.inner,
+                        ),
+                      ],
+                    ),
+                    child: const Icon(
+                      Icons.add_box,
+                      size: 50,
+                      shadows: [
+                        BoxShadow(
+                          color: Colors.purpleAccent,
+                          offset: Offset(5, 5),
+                        ),
+                      ],
+                    ),
                   ),
-                ),
-              ],
+                  Container(
+                    padding: const EdgeInsets.all(20),
+                    height: 120,
+                    width: 120,
+                    margin: const EdgeInsets.all(20),
+                    decoration: const BoxDecoration(
+                      border: Border(
+                        left: BorderSide(
+                          style: BorderStyle.solid,
+                          color: Colors.black,
+                          width: 5.0,
+                        ),
+                        right: BorderSide(
+                          style: BorderStyle.solid,
+                          color: Colors.black,
+                          width: 15.0,
+                        ),
+                        top: BorderSide(
+                          style: BorderStyle.solid,
+                          color: Colors.black38,
+                          width: 20.0,
+                        ),
+                        bottom: BorderSide(
+                          style: BorderStyle.solid,
+                          color: Colors.black38,
+                          width: 8.0,
+                        ),
+                      ),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.pinkAccent,
+                          blurRadius: 15,
+                          spreadRadius: 15,
+                          blurStyle: BlurStyle.inner,
+                        ),
+                      ],
+                    ),
+                    child: const Icon(
+                      Icons.add_box,
+                      size: 50,
+                      shadows: [
+                        BoxShadow(
+                          color: Colors.purpleAccent,
+                          offset: Offset(5, 5),
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
             ),
           ],
         ),

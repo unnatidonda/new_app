@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:new_app/first_screen.dart';
+import 'package:new_app/layout_screen/task_thrid_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         fontFamily: "Alkatra",
       ),
-      home: const FirstScreen(),
+      home: const TaskThirdScreen(),
     );
   }
 }
